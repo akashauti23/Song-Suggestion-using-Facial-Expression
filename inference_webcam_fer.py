@@ -25,7 +25,7 @@ import time
 
 #os.chdir(inferenceDir)
 
-faceCascade=cv2.CascadeClassifier(os.path.join(casDir,r'C:\Users\AKASH\Desktop\common_project\FER\haarcascades\haarcascade_frontalface_default.xml'))
+faceCascade=cv2.CascadeClassifier(os.path.join(casDir,'haarcascade_frontalface_default.xml'))
 videoCapture = cv2.VideoCapture(0)
 
 # If image will detected without any error,
