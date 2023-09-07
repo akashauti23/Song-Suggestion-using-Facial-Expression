@@ -9,6 +9,3 @@ train.py :- This file is used to compile and run the code, and train the model w
 Inference.py :- Result file which contains the part of code for running the emotion detection on a provided photo and playing music.
 inference_webcam_fer.py :- This file is like improvisation in the code which helps to get the similar results while collecting image using webcam using cv2,
 
-"""sh
-print('Hello World')
-"""
